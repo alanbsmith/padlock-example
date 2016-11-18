@@ -9,6 +9,6 @@ $(document).ready(function() {
     if (password !== 'mypassword') {
       return alert('invalid password');
     }
-    alert('welcome!');
+    $('.login-form__padlock-bolt').addClass('open');
   });
 });

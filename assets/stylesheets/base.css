@@ -1,3 +1,13 @@
+@keyframes open {
+  0% { transform: translateY(30px)};
+  100% { transform: translateY(-30px);};
+}
+
+@-webkit-keyframes open {
+  0% { transform: translateY(30px)};
+  100% { transform: translateY(-30px);};
+}
+
 body {
   font-family: helvetica;
   color: #3C4858;
@@ -11,6 +21,26 @@ body {
 
 .login-form {
   text-align: center;
+}
+
+.login-form__padlock-bolt {
+  position: relative;
+  top: 65px;
+  height: 120px;
+  background: url('../images/lock-bolt.svg') no-repeat center/contain;
+}
+
+.login-form__padlock-bolt.open {
+  animation: open 0.3s;
+  -webkit-animation: open 0.3s;
+  -moz-animation: open 0.3s;
+  top: 30px;
+}
+
+.login-form__padlock {
+  position: relative;
+  height: 100px;
+  background: url('../images/lock.svg') no-repeat center/contain;
 }
 
 .login-form__input {
