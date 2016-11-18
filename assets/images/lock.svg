@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.09725738e-16,20.0066003 C2.72983511e-16,8.95726004 8.94946575,0 20.0001277,0 L179.999872,0 C191.045638,0 200,8.95009284 200,19.994837 L200,75 L200,100.008884 C200,127.618215 177.615483,150 149.999167,150 L50.0008332,150 C22.3861355,150 0,127.617075 0,100.001388 L0,75 L6.09725738e-16,20.0066003 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="150" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M108,78.1594381 C114.24055,75.0281495 119,68.4304895 119,61 C119,50.5065898 110.49341,42 100,42 C89.5065898,42 81,50.5065898 81,61 C81,68.6354586 85.5039383,75.218966 92,78.2387073 L92,89 L108,89 L108,78.1594381 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-5" y="-5" width="48" height="57">
+            <rect x="76" y="37" width="48" height="57" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <use id="Rectangle" stroke="#1F2D3D" mask="url(#mask-2)" stroke-width="10" fill="#C0CCDA" xlink:href="#path-1"></use>
+            <g id="Combined-Shape">
+                <use fill="#3C4858" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use stroke="#1F2D3D" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
